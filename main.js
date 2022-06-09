@@ -9,10 +9,13 @@ var description = document.querySelector('.description')
 var visibility = document.querySelector('.visibility')
 var wind = document.querySelector('.wind')
 var cloud = document.querySelector('.cloud')
-var inputValue;
 
 var changeWeather = (location) => {
-   city.innerHTML = location.name
+   if(location.name == 'Turan'){
+      city.innerHTML = 'Da Nang'
+   }else{
+      city.innerHTML = location.name
+   }
    country.innerHTML = location.sys.country
    date.innerHTML = new Date().toLocaleString('vi')
    tempNumber.innerHTML = location.main.temp.toFixed(1)
