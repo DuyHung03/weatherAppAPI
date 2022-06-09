@@ -1,0 +1,91 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.transition {
+  transition: 0.3s ease-in-out;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.wrapper .tag {
+  background-color: #fff;
+  padding: 30px 20px;
+  min-width: 360px;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+.wrapper .tag input {
+  width: 100%;
+  border-radius: 0 15px 0 15px;
+  padding: 8px 20px;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #000;
+  border: none;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-bottom: 30px;
+}
+.wrapper .tag input:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+}
+.wrapper .tag .content {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.wrapper .tag .content .city, .wrapper .tag .content .country {
+  font-weight: bold;
+  font-size: 40px;
+}
+.wrapper .tag .temperature {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+  margin-bottom: 30px;
+}
+.wrapper .tag .temperature .temp-number, .wrapper .tag .temperature .temp-character {
+  font-size: 70px;
+  color: #fff;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.wrapper .tag .description {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.wrapper .tag .details {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.wrapper .tag .details i {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.wrapper .footer {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
